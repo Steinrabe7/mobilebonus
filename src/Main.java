@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int amount = 300;
-        int deposit = 1500;
+        int amount = 1700;
+        int deposit = 2500;
 
 
         if (deposit >= 1000) {
@@ -25,7 +25,7 @@ public class Main {
             bonus = 0;
         }
 
-        int summaryTotal = bonus + amount;
+        int summaryTotal = bonus + amount + deposit;
 
         System.out.println("Итоговая сумма на счете:" + summaryTotal);
 
