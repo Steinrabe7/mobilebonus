@@ -4,16 +4,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int amount = 1700;
-        int deposit = 2500;
+        int amount = 1000;
+        int deposit = 1500;
 
 
-        if (deposit >= 1000) {
-            System.out.println("Достаточная сумма для начисления бонусов");
 
-        } else {
-            System.out.println("Недостаточная сумма для начисления бонусов");
-        }
 
         int bonus;
 
